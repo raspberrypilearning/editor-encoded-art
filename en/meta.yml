@@ -1,14 +1,20 @@
-title: Project title in sentence case
+---
+title: Encoded art
 hero_image: images/banner.png
-description: A short description of the project
+description: Create a piece of encoded artwork based on the user's name.
+meta_title: Python coding projects for kids and teens | Encoded art
+meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Use Python to create a piece of encoded art based on the user’s name.
+version: 4
 listed: false
-pdf: false
+copyedit: false
+last_tested: "2026-01-12"
 steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+- title: Step 1
+- title: Step 2
+  completion:
+  - engaged
+- title: Step 3
+- title: Step 4
+  completion:
+  - internal
+  - external
