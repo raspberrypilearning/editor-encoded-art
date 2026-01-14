@@ -112,5 +112,6 @@ Type longer names and words - every letter should now be converted to its encode
 --- /task --- 
 
 <div class="c-project-output">
+
 ![The shapes that appear when 'Vasu' is entered](images/vasu.png)
 </div>

@@ -71,5 +71,6 @@ Try "Alice", "Bob", or "Charlie" to see different shapes.
 --- /task ---
 
 <div class="c-project-output">
+
 ![A square appears when 'Bob' is entered](images/square.png)
 </div>

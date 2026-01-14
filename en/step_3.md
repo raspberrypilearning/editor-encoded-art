@@ -69,5 +69,6 @@ Try typing names with different first letters to see different shapes appear.
 --- /task ---
 
 <div class="c-project-output">
+
 ![A square appears when 'Bob' is entered](images/square.png)
 </div>

@@ -64,6 +64,7 @@ You should see a large circle appear on the screen!
 --- /task ---
 
 <div class="c-project-output">
+
 ![A large circle](images/circle.png)
 </div>
 
