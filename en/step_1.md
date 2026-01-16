@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Import the helper</h2>
 --- task ---
-Import the helper code and creating your first simple encoding.
+Import the helper code and create your first simple encoding.
 --- /task ---
 
 The helper file contains all the drawing functions, colours, and the logic to set up the canvas. Your job is to focus on the **encoding** - deciding which letter maps to which shape, size, and colour.
