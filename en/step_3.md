@@ -3,8 +3,6 @@
 Add a loop that goes through every letter in the name and builds a list of shapes to draw.
 --- /task ---
 
-Add a loop that goes through each letter in the name and builds up a list of all the shapes you need to draw. 
-
 This is the core of the encoding!
 
 Update your draw() function:
@@ -56,8 +54,6 @@ The loop builds the message:
 For now, we're only drawing the first shape - in the next step you'll draw them all!
 
 </div>
-
---- /task ---
 
 --- task ---
 **Run your code**

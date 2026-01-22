@@ -1,4 +1,9 @@
 <h2 class="c-project-heading--task">Import the helper</h2>
+
+<h2 class="c-project-heading--explainer">Create art based on a name. 
+
+Each letter is encoded to a shape placed at a random place.</h2>
+
 --- task ---
 Import the helper code and create your first simple encoding.
 --- /task ---
@@ -52,9 +57,9 @@ run(frame_rate=10)
 
 </div>
 
---- /task ---
-
 --- task ---
+**Test**: Make sure you are in Split view.
+
 **Run your code**
 
 Test it by typing a name with only the letter 'a' in it (like "aaa").

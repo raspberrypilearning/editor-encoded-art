@@ -3,6 +3,16 @@
 Expand your encoding dictionary look up letters to draw their matching shapes.
 --- /task ---
 
+--- task ---
+
+Delete these lines.
+```
+    # Draw one shape from the code
+    shape_1(150, primary_1)
+```
+
+--- /task ---
+
 Add more letters to your encoding look them up in the dictionary to draw the correct shape.
 
 <div class="c-project-code">
@@ -16,9 +26,9 @@ line_highlights: 7-8, 22-32
 ---
 # Define the encoding: each letter maps to [shape name, size, colour]
 code = {
-    'a': ['shape_1', 150, primary_1],
-    'b': ['shape_2', 50, secondary_2],
-    'c': ['shape_3', 75, secondary_1],
+    "a": ['shape_1', 150, primary_1],
+    "b": ['shape_2', 50, secondary_2],
+    "c": ['shape_3', 75, secondary_1],
 }
 
 # Get the user's name
@@ -62,7 +72,7 @@ def draw():
 --- task ---
 **Run your code**
 
-Test it by typing names starting with 'a', 'b', or 'c'.
+Test it by typing names starting with "a", "b", or "c".
 
 Each first letter should display as a different shape with the size and colour you encoded!
 
