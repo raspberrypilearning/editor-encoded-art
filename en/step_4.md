@@ -1,7 +1,6 @@
 <h2 class="c-project-heading--task">Draw all the shapes and complete the alphabet</h2>
---- task ---
+### Step 1
 Add a loop to draw ALL the shapes in your message, then complete your encoding with the full alphabet!
---- /task ---
 
 Add a loop to draw every shape in your message list, not just the first one. 
 
@@ -100,14 +99,13 @@ Now all letters are drawn, not just the first one.
 
 </div>
 
---- task ---
+### Step 2
 **Run your code**
 
 Now test it with any name or word! 
 
 Type longer names and words - every letter should now be converted to its encoded shape appearing randomly on the screen.
 
---- /task --- 
 
 <div class="c-project-output">
 

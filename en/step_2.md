@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Use the code dictionary to draw shapes</h2>
---- task ---
+### Step 1
 Expand your encoding dictionary look up letters to draw their matching shapes.
---- /task ---
 
---- task ---
+### Step 2
 
 Delete these lines.
 ```
@@ -11,7 +10,6 @@ Delete these lines.
     shape_1(150, primary_1)
 ```
 
---- /task ---
 
 Add more letters to your encoding look them up in the dictionary to draw the correct shape.
 
@@ -67,9 +65,7 @@ def draw():
 
 </div>
 
---- /task ---
-
---- task ---
+### Step 3
 **Run your code**
 
 Test it by typing names starting with "a", "b", or "c".
@@ -78,7 +74,6 @@ Each first letter should display as a different shape with the size and colour y
 
 Try "Alice", "Bob", or "Charlie" to see different shapes. 
 
---- /task ---
 
 <div class="c-project-output">
 

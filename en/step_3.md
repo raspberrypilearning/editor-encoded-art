@@ -1,7 +1,6 @@
 <h2 class="c-project-heading--task">Loop through all letters to build the message</h2>
---- task ---
+### Step 1
 Add a loop that goes through every letter in the name and builds a list of shapes to draw.
---- /task ---
 
 This is the core of the encoding!
 
@@ -55,14 +54,13 @@ For now, we're only drawing the first shape - in the next step you'll draw them 
 
 </div>
 
---- task ---
+### Step 2
 **Run your code**
 
 You should still see one shape appear.
 
 Try typing names with different first letters to see different shapes appear.
 
---- /task ---
 
 <div class="c-project-output">
 
