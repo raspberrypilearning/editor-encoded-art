@@ -8,13 +8,15 @@ version: 4
 listed: false
 copyedit: false
 last_tested: "2026-01-12"
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
+- title: Import the helper
+- title: Use the code dictionary to draw shapes
   completion:
   - engaged
-- title: Step 3
-- title: Step 4
+- title: Loop through all letters to build the message
   completion:
   - internal
+- title: Draw all the shapes and complete the alphabet
+  completion:
   - external

@@ -4,9 +4,8 @@
 
 Each letter is encoded to a shape placed at a random place.</h2>
 
---- task ---
+### Step 1
 Import the helper code and create your first simple encoding.
---- /task ---
 
 The helper file contains all the drawing functions, colours, and the logic to set up the canvas. Your job is to focus on the **encoding** - deciding which letter maps to which shape, size, and colour.
 
@@ -57,7 +56,7 @@ run(frame_rate=10)
 
 </div>
 
---- task ---
+### Step 2
 **Test**: Make sure you are in Split view.
 
 **Run your code**
@@ -66,10 +65,8 @@ Test it by typing a name with only the letter 'a' in it (like "aaa").
 
 You should see a large circle appear on the screen!
 
---- /task ---
 
 <div class="c-project-output">
 
 ![A large circle](images/circle.png)
 </div>
-
