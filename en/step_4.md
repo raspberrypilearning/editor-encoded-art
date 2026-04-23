@@ -1,6 +1,10 @@
 <h2 class="c-project-heading--task">Draw all the shapes and complete the alphabet</h2>
-### Step 1
+
 Add a loop to draw ALL the shapes in your message, then complete your encoding with the full alphabet!
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Add a loop to draw every shape in your message list, not just the first one. 
 
@@ -86,9 +90,9 @@ code = {
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The second loop draws the message:
 - It goes through each item in the `message` list
@@ -99,7 +103,8 @@ Now all letters are drawn, not just the first one.
 
 </div>
 
-### Step 2
+## Step 2
+
 **Run your code**
 
 Now test it with any name or word! 
@@ -111,3 +116,7 @@ Type longer names and words - every letter should now be converted to its encode
 
 ![The shapes that appear when 'Vasu' is entered](images/vasu.png)
 </div>
+
+## Now run your code
+
+Confirm the observable result.

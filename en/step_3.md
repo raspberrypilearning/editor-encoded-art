@@ -1,6 +1,10 @@
 <h2 class="c-project-heading--task">Loop through all letters to build the message</h2>
-### Step 1
+
 Add a loop that goes through every letter in the name and builds a list of shapes to draw.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 This is the core of the encoding!
 
@@ -41,9 +45,9 @@ def draw():
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The loop builds the message:
 - It goes through each letter in the name
@@ -54,7 +58,8 @@ For now, we're only drawing the first shape - in the next step you'll draw them 
 
 </div>
 
-### Step 2
+## Step 2
+
 **Run your code**
 
 You should still see one shape appear.
@@ -66,3 +71,7 @@ Try typing names with different first letters to see different shapes appear.
 
 ![A square appears when 'Bob' is entered](images/square.png)
 </div>
+
+## Now run your code
+
+Confirm the observable result.
