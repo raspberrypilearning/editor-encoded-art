@@ -85,4 +85,4 @@ Try "Alice", "Bob", or "Charlie" to see different shapes.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, type a name starting with `a`, `b`, or `c`, and check that a different shape appears for each first letter.

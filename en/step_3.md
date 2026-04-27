@@ -74,4 +74,4 @@ Try typing names with different first letters to see different shapes appear.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that you still see one encoded shape for the first letter you type.

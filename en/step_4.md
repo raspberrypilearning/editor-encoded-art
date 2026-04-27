@@ -119,4 +119,4 @@ Type longer names and words - every letter should now be converted to its encode
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, type a longer name or word, and check that every letter is turned into a shape on the screen.
