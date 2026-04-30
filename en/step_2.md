@@ -1,8 +1,10 @@
 <h2 class="c-project-heading--task">Use the code dictionary to draw shapes</h2>
-### Step 1
+
 Expand your encoding dictionary look up letters to draw their matching shapes.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Delete these lines.
 ```
@@ -54,9 +56,9 @@ def draw():
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - `name[0]` gets the first letter of the name
 - `code[letter]` looks up that letter in the dictionary
@@ -65,7 +67,8 @@ def draw():
 
 </div>
 
-### Step 3
+## Step 2
+
 **Run your code**
 
 Test it by typing names starting with "a", "b", or "c".
@@ -79,3 +82,7 @@ Try "Alice", "Bob", or "Charlie" to see different shapes.
 
 ![A square appears when 'Bob' is entered](images/square.png)
 </div>
+
+## Now run your code
+
+Run your code, type a name starting with `a`, `b`, or `c`, and check that a different shape appears for each first letter.
