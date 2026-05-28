@@ -2,8 +2,6 @@
 
 Add a loop to draw ALL the shapes in your message, then complete your encoding with the full alphabet!
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Add a loop to draw every shape in your message list, not just the first one. 
