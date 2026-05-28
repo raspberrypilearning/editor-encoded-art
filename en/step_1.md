@@ -2,8 +2,6 @@
 
 Create art based on a name.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Each letter is encoded to a shape placed at a random place.</h2>
 
 Import the helper code and create your first simple encoding.
