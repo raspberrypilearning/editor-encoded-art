@@ -2,8 +2,6 @@
 
 Expand your encoding dictionary look up letters to draw their matching shapes.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Delete these lines.
