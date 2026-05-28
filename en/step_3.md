@@ -2,8 +2,6 @@
 
 Add a loop that goes through every letter in the name and builds a list of shapes to draw.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 This is the core of the encoding!
