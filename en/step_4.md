@@ -107,7 +107,7 @@ Now all letters are drawn, not just the first one.
 
 Now test it with any name or word! 
 
-Type longer names and words - every letter should now be converted to its encoded shape appearing randomly on the screen.
+Type longer names and words — every letter should now be converted to its encoded shape and appear randomly on the screen.
 
 
 <div class="c-project-output">
