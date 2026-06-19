@@ -2,11 +2,11 @@
 
 Create art based on a name.
 
-Each letter is encoded to a shape placed at a random place.</h2>
+Each letter is encoded to a shape placed at a random place.
 
 Import the helper code and create your first simple encoding.
 
-The helper file contains all the drawing functions, colours, and the logic to set up the canvas. Your job is to focus on the **encoding** - deciding which letter maps to which shape, size, and colour.
+The helper file contains all the drawing functions, colours, and the logic to set up the canvas. Your job is to focus on the **encoding** — deciding which letter maps to which shape, size, and colour.
 
 <div class="c-project-code">
 --- code ---
@@ -49,8 +49,8 @@ run(frame_rate=10)
 
 <div class="c-project-callout c-project-callout--tip">
 
-- The `code` dictionary maps each letter to: `['shape name', size, colour]`
-- Start simple with just the letter 'a' - you'll add more letters in the next steps
+- The `code` dictionary maps each letter to `['shape name', size, colour]`
+- Start simple with just the letter 'a' — you'll add more letters in the next steps
 - The colours like `primary_1`, `primary_2`, etc. are defined in the helper file
 
 </div>

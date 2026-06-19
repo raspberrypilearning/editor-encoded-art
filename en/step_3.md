@@ -52,7 +52,7 @@ The loop builds the message:
 - It checks if that letter is in your `code` dictionary
 - If it is, it adds the `[shape, size, colour]` information to the `message` list
 
-For now, we're only drawing the first shape - in the next step you'll draw them all!
+For now, you will only draw the first shape — in the next step you'll draw them all!
 
 </div>
 
@@ -60,7 +60,7 @@ For now, we're only drawing the first shape - in the next step you'll draw them 
 
 **Run your code**
 
-You should still see one shape appear.
+You should still see only one shape appear.
 
 Try typing names with different first letters to see different shapes appear.
 

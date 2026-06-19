@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Use the code dictionary to draw shapes</h2>
 
-Expand your encoding dictionary look up letters to draw their matching shapes.
+Expand your encoding dictionary. Add more letters to draw their matching shapes.
 
 ## Step 1
 
@@ -11,7 +11,7 @@ Delete these lines.
 ```
 
 
-Add more letters to your encoding look them up in the dictionary to draw the correct shape.
+Add more letters to your encoding. Look them up in the dictionary to draw the correct shape.
 
 <div class="c-project-code">
 --- code ---
