@@ -1,24 +1,14 @@
-<h2 class="c-project-heading--task">Draw all the shapes and complete the alphabet</h2>
+## Draw all the shapes and complete the alphabet
 
 Add a loop to draw ALL the shapes in your message, then complete your encoding with the full alphabet!
 
-## Step 1
-
-Add a loop to draw every shape in your message list, not just the first one. 
+Add a loop to draw every shape in your message list, not just the first one.
 
 Then complete your encoding with all 26 letters.
 
 Update your draw() function.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 16
-line_highlights: 22-38
----
+```python filename="main.py" line_numbers="true" line_number_start="16" line_highlights="22-38"
 # Define the draw function that p5 will call repeatedly
 def draw():
     seed(10)  # Generate the same random numbers each time
@@ -41,20 +31,11 @@ def draw():
             shape_2(item[1], item[2])
         elif item[0] == 'shape_3':
             shape_3(item[1], item[2])
---- /code ---
-</div>
+```
 
 Now complete your `code` dictionary with all letters:
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 4
-line_highlights: 4-33
----
+```python filename="main.py" line_numbers="true" line_number_start="4" line_highlights="4-33"
 # Define the encoding: each letter maps to [shape name, size, colour]
 code = {
     "a": ['shape_1', 150, primary_1],
@@ -85,36 +66,23 @@ code = {
     "z": ['shape_2', 70, complementary_2],
     " ": ['shape_1', 25, complementary_1],
 }
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-The second loop draws the message:
-- It goes through each item in the `message` list
-- It checks which shape to draw
-- It calls the right shape function with the size and colour
-
-Now all letters are drawn, not just the first one.
-
-</div>
-
-## Step 2
-
-**Run your code**
-
-Now test it with any name or word! 
-
-Type longer names and words — every letter should now be converted to its encoded shape and appear randomly on the screen.
-
-
-<div class="c-project-output">
-
-![The shapes that appear when 'Vasu' is entered](images/vasu.png)
-</div>
+> [!TIP]
+>
+> The second loop draws the message:
+> - It goes through each item in the `message` list
+> - It checks which shape to draw
+> - It calls the right shape function with the size and colour
+>
+> Now all letters are drawn, not just the first one.
 
 ## Now run your code
 
+Now test it with any name or word!
+
+Type longer names and words — every letter should now be converted to its encoded shape and appear randomly on the screen.
+
 Run your code, type a longer name or word, and check that every letter is turned into a shape on the screen.
+
+![The shapes that appear when 'Vasu' is entered](images/vasu.png)
