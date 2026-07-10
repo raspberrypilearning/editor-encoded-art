@@ -1,8 +1,6 @@
-<h2 class="c-project-heading--task">Use the code dictionary to draw shapes</h2>
+## Use the code dictionary to draw shapes
 
 Expand your encoding dictionary. Add more letters to draw their matching shapes.
-
-## Step 1
 
 Delete these lines.
 ```
@@ -13,15 +11,7 @@ Delete these lines.
 
 Add more letters to your encoding. Look them up in the dictionary to draw the correct shape.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 4
-line_highlights: 7-8, 22-32
----
+```python filename="main.py" line_numbers="true" line_number_start="4" line_highlights="7-8,22-32"
 # Define the encoding: each letter maps to [shape name, size, colour]
 code = {
     "a": ['shape_1', 150, primary_1],
@@ -51,36 +41,21 @@ def draw():
         shape_2(shape_info[1], shape_info[2])
     elif shape_info[0] == 'shape_3':
         shape_3(shape_info[1], shape_info[2])
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-- `name[0]` gets the first letter of the name
-- `code[letter]` looks up that letter in the dictionary
-- The `if/elif` statements check which shape to draw
-- Try different first letters (a, b, or c) to see different shapes!
-
-</div>
-
-## Step 2
-
-**Run your code**
-
-Test it by typing names starting with "a", "b", or "c".
-
-Each first letter should display as a different shape with the size and colour you encoded!
-
-Try "Alice", "Bob", or "Charlie" to see different shapes. 
-
-
-<div class="c-project-output">
-
-![A square appears when 'Bob' is entered](images/square.png)
-</div>
+> [!TIP]
+>
+> - `name[0]` gets the first letter of the name
+> - `code[letter]` looks up that letter in the dictionary
+> - The `if/elif` statements check which shape to draw
+> - Try different first letters (a, b, or c) to see different shapes!
 
 ## Now run your code
 
+Each first letter should display as a different shape with the size and colour you encoded!
+
+Try "Alice", "Bob", or "Charlie" to see different shapes.
+
 Run your code, type a name starting with `a`, `b`, or `c`, and check that a different shape appears for each first letter.
+
+![A square appears when 'Bob' is entered](images/square.png)

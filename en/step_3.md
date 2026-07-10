@@ -1,22 +1,12 @@
-<h2 class="c-project-heading--task">Loop through all letters to build the message</h2>
+## Loop through all letters to build the message
 
 Add a loop that goes through every letter in the name and builds a list of shapes to draw.
-
-## Step 1
 
 This is the core of the encoding!
 
 Update your draw() function:
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 16
-line_highlights: 22-38
----
+```python filename="main.py" line_numbers="true" line_number_start="16" line_highlights="22-38"
 # Define the draw function that p5 will call repeatedly
 def draw():
     seed(10)  # Generate the same random numbers each time
@@ -40,36 +30,23 @@ def draw():
             shape_2(shape_info[1], shape_info[2])
         elif shape_info[0] == 'shape_3':
             shape_3(shape_info[1], shape_info[2])
---- /code ---
-</div>
+```
 
-### Tip
+> [!TIP]
+>
+> The loop builds the message:
+> - It goes through each letter in the name
+> - It checks if that letter is in your `code` dictionary
+> - If it is, it adds the `[shape, size, colour]` information to the `message` list
+>
+> For now, you will only draw the first shape — in the next step you'll draw them all!
 
-<div class="c-project-callout c-project-callout--tip">
-
-The loop builds the message:
-- It goes through each letter in the name
-- It checks if that letter is in your `code` dictionary
-- If it is, it adds the `[shape, size, colour]` information to the `message` list
-
-For now, you will only draw the first shape — in the next step you'll draw them all!
-
-</div>
-
-## Step 2
-
-**Run your code**
+## Now run your code
 
 You should still see only one shape appear.
 
 Try typing names with different first letters to see different shapes appear.
 
-
-<div class="c-project-output">
+Run your code and check that you still see one encoded shape for the first letter you type.
 
 ![A square appears when 'Bob' is entered](images/square.png)
-</div>
-
-## Now run your code
-
-Run your code and check that you still see one encoded shape for the first letter you type.

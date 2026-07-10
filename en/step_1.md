@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Import the helper</h2>
+## Import the helper
 
 Create art based on a name.
 
@@ -8,15 +8,7 @@ Import the helper code and create your first simple encoding.
 
 The helper file contains all the drawing functions, colours, and the logic to set up the canvas. Your job is to focus on the **encoding** — deciding which letter maps to which shape, size, and colour.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 2
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="2"
 from p5 import *
 from helper import *
 
@@ -42,18 +34,13 @@ def draw():
 
 # Run the artwork
 run(frame_rate=10)
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-- The `code` dictionary maps each letter to `['shape name', size, colour]`
-- Start simple with just the letter 'a' — you'll add more letters in the next steps
-- The colours like `primary_1`, `primary_2`, etc. are defined in the helper file
-
-</div>
+> [!TIP]
+>
+> - The `code` dictionary maps each letter to `['shape name', size, colour]`
+> - Start simple with just the letter 'a' — you'll add more letters in the next steps
+> - The colours like `primary_1`, `primary_2`, etc. are defined in the helper file
 
 ## Now run your code
 
@@ -63,8 +50,4 @@ Type a name with only the letter 'a' in it (like "aaa").
 
 You should see a large circle appear on the screen!
 
-
-<div class="c-project-output">
-
 ![A large circle](images/circle.png)
-</div>
